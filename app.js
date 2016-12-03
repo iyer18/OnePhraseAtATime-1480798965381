@@ -10,8 +10,8 @@ var express = require('express');
 var mongoose = require('mongoose');
 // log requests to the console (express4)
 var logger = require('morgan'); 
-//var mongoURL = 'mongodb://2ee767cd-438d-4b4e-a641-e50187d425e3:534deb6a-c8b2-477d-9b20-3190aa78c9ea@23.246.199.101:10079/db';
-var mongoURL = 'localhost/db';
+var mongoURL = 'mongodb://2ee767cd-438d-4b4e-a641-e50187d425e3:534deb6a-c8b2-477d-9b20-3190aa78c9ea@23.246.199.101:10079/db';
+//var mongoURL = 'localhost/db';
 // pull information from HTML POST (express4)
 var bodyParser = require('body-parser'); 
 // simulate DELETE and PUT (express4)
