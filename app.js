@@ -7,10 +7,14 @@
 // This application uses express as its web server
 // for more info, see: http://expressjs.com
 var express = require('express');
-
+var mongoose = require('mongoose');
+//var mongoURL = 'mongodb://2ee767cd-438d-4b4e-a641-e50187d425e3:534deb6a-c8b2-477d-9b20-3190aa78c9ea@23.246.199.101:10079/db';
+var mongoURL = 'localhost/db';
+mongoose.connect(mongodbURL);
 // cfenv provides access to your Cloud Foundry environment
 // for more info, see: https://www.npmjs.com/package/cfenv
 var cfenv = require('cfenv');
+
 
 // create a new express server
 var app = express();
