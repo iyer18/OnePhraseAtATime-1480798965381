@@ -6,9 +6,12 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
     "cfenv": "^1.0.3",
     "express": "^4.13.4",
-    "mongoose": "^4.7.1"
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0"
   },
   "repository": {},
   "engines": {
